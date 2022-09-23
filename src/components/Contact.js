@@ -12,7 +12,6 @@ const Contact = () => {
           Richard J Remley
         </a>
       </h1>
-      <h1></h1>
     </div>
   );
 };

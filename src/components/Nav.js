@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -13,7 +13,7 @@ const Nav = () => {
         </div>
         <div> </div>
       </nav>
-      <img src="geo.png"></img>
+      <img src="geo.png" alt=""></img>
     </div>
   );
 };
