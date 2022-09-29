@@ -1,19 +1,34 @@
 import { NavLink } from "react-router-dom";
+import "../Nav.css";
 
 const Nav = () => {
   return (
     <div>
       <nav className="navbar">
-        <h4>Navigation</h4>
-        <div className="navbar">
-          <NavLink to="/"> Home </NavLink>
-          <NavLink to="/work"> Work</NavLink>
-          <NavLink to="/about"> About test</NavLink>
-          <NavLink to="/contact"> Contact</NavLink>
+        <div className="grid-container">
+          <div className="grid-item">
+            <NavLink className="navLink" to="/">
+              Home
+            </NavLink>
+          </div>
+          <div className="grid-item">
+            <NavLink className="navLink" to="/work">
+              Work
+            </NavLink>
+          </div>
+          <div className="grid-item">
+            <NavLink className="navLink" to="/about">
+              About
+            </NavLink>
+          </div>
+          <div className="grid-item">
+            <NavLink className="navLink" to="/contact">
+              Contact
+            </NavLink>
+          </div>
         </div>
-        <div> </div>
       </nav>
-      <img src="geo.png" alt=""></img>
+      {/* <img src="geo.png" alt=""></img> */}
     </div>
   );
 };

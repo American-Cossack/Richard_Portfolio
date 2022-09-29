@@ -6,27 +6,25 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Work from "./components/Work";
 import About from "./components/About";
+import background from "./geo.png";
 // import React, { useState } from "react";
 
 function App() {
   return (
-    <div>
-      <header>
-        <Router>
+    <div className="demo-wrap">
+      <div className="demo-content">
+        <header>
           <Nav />
-        </Router>
-      </header>
-      <main>
-        <Router>
-          <Routes className="body">
+        </header>
+        <main className="body">
+          <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/work" element={<Work />}></Route>
           </Routes>
-        </Router>
-      </main>
-      <div></div>
+        </main>
+      </div>
     </div>
   );
 }

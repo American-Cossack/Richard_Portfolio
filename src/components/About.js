@@ -1,9 +1,9 @@
-// import "../App.css";
+import "../About.css";
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-      <h2>Knowledge. Integrity. Creativity.</h2>
+    <div className="About">
+      <h1 className="about-h1">About</h1>
+      <h2 className="about-h2">Knowledge. Integrity. Creativity.</h2>
       <h3>
         I am junior Software Developer with a wide knowledge of coding languages
         who can easily adapt to difficult tasks, work effectively in teams, and

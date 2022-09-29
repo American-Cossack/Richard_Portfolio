@@ -1,0 +1,11 @@
+.Exp{
+    font-size: 45px;
+    margin-bottom: 55px;
+}
+.WorkDiv{margin-top: 20px;}
+.hidden{opacity: 0;
+height: 1px;
+width: 1px;}
+.notHidden{opacity: 1;
+height: 50px;
+width: 50px;}
