@@ -1,5 +1,5 @@
 // import "../App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../Work.css";
 const Work = () => {
   const [isHovering, setIsHovering] = useState(false);
@@ -31,6 +31,7 @@ const Work = () => {
         <img
           className={crossClass()}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Doppeladler_russland.JPG/800px-Doppeladler_russland.JPG"
+          alt=""
         ></img>
       </div>
       <div className="WorkDiv">
@@ -45,6 +46,7 @@ const Work = () => {
         <img
           className={crossClass()}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Doppeladler_russland.JPG/800px-Doppeladler_russland.JPG"
+          alt=""
         ></img>
       </div>
       <div>
@@ -59,6 +61,7 @@ const Work = () => {
         <img
           className={crossClass()}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Doppeladler_russland.JPG/800px-Doppeladler_russland.JPG"
+          alt=""
         ></img>
       </div>
       <div>
@@ -70,6 +73,7 @@ const Work = () => {
         <img
           className={crossClass()}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Doppeladler_russland.JPG/800px-Doppeladler_russland.JPG"
+          alt=""
         ></img>
       </div>
     </div>
